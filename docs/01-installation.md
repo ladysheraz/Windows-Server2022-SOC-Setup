@@ -64,7 +64,7 @@ Once the installation completes, you’ll be prompted to:
 
 ---
 
-## Step 3: Begin the Installation
+### Begin the Installation
 
 ### Select Language
 
@@ -123,8 +123,6 @@ The system will copy files, install features, and reboot automatically.
 After reboot, you'll be prompted to set a password for the Administrator account.
 
 > 🛡️ Since this is a lab, you can use a weak password — just make sure you remember it!
-
-📷 ![Password Setup](https://ld-images-2.s3.us-east-2.amazonaws.com/Building+a+SOC+Lab+at+Home/02-ActiveDirectory/Images/Images/vm4.png)
 
 ---
 
