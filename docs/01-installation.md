@@ -62,6 +62,77 @@ Once the installation completes, you’ll be prompted to:
 - Customize settings
 - Begin initial configuration
 
+---
+
+## Step 3: Begin the Installation
+
+### Select Language
+
+Choose **English** (recommended for compatibility), and click **Next**.
+
+📷 ![install01](https://ld-images-2.s3.us-east-2.amazonaws.com/Building+a+SOC+Lab+at+Home/02-ActiveDirectory/Images/Images/install01.png)
+
+---
+
+### Start Installation
+
+Click **Install Now**.
+
+---
+
+### Choose Edition
+
+Select **Windows Server 2022 Datacenter Evaluation (Desktop Experience)**.
+
+📷 ![install02](https://ld-images-2.s3.us-east-2.amazonaws.com/Building+a+SOC+Lab+at+Home/02-ActiveDirectory/Images/Images/install02.png)
+
+> ℹ️ This version includes a GUI, which is helpful for beginners.
+
+---
+
+### Accept the License Terms
+
+Check the box and click **Next**.
+
+---
+
+### Choose Installation Type
+
+Select **Custom: Install Windows only (advanced)**.
+
+📷 ![install03](https://ld-images-2.s3.us-east-2.amazonaws.com/Building+a+SOC+Lab+at+Home/02-ActiveDirectory/Images/Images/install03.png)
+
+---
+
+### Partition the Disk
+
+Select the only available drive (e.g., Drive 0 Unallocated Space) and click **Next**.
+
+📷 ![install04](https://ld-images-2.s3.us-east-2.amazonaws.com/Building+a+SOC+Lab+at+Home/02-ActiveDirectory/Images/Images/install04.png)
+
+---
+
+### Wait for Installation
+
+The system will copy files, install features, and reboot automatically.
+
+---
+
+## Step 4: Set Administrator Password
+
+After reboot, you'll be prompted to set a password for the Administrator account.
+
+> 🛡️ Since this is a lab, you can use a weak password — just make sure you remember it!
+
+📷 ![Password Setup](https://ld-images-2.s3.us-east-2.amazonaws.com/Building+a+SOC+Lab+at+Home/02-ActiveDirectory/Images/Images/vm4.png)
+
+---
+
+## ✅ Done!
+
+You've now successfully installed Windows Server 2022 with Desktop Experience. Next up, we’ll configure a **static IP address** and promote this server to a **Domain Controller**.
+
+---
 📌 Now you're ready to proceed to the next steps:
 1. Setting a Static IP  
 2. Configuring Active Directory (AD)  
